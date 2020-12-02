@@ -5,9 +5,9 @@ import (
 )
 
 func RegisterController() {
-	uc := newUserController()
+	uc := newStudentController()
 
-	http.Handle("/users", *uc)
-	http.Handle("/users/", *uc)
+	http.Handle("/students", *uc)
+	http.Handle("/students/", *uc)
 
 }
