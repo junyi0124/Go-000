@@ -5,7 +5,7 @@ import (
 )
 
 func RegisterController() {
-	uc := newStudentController()
+	uc, _ := newStudentController()
 
 	http.Handle("/students", *uc)
 	http.Handle("/students/", *uc)

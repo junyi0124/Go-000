@@ -1,4 +1,4 @@
-module github.com/junyi0124/Go-000/Week02
+module github.com/junyi0124/Go3
 
 go 1.15
 
